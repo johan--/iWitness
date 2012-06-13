@@ -1,0 +1,17 @@
+development:
+  gmaps:
+    api_key: 'AIzaSyBJB8eoETBDiey-uWbu6PXltXUpHLGAp7U'
+  flickr:
+    api_key: '117966c5c10d5f2705e9a8b4daebcfa3'
+  analytics:
+    enabled: false
+
+production:
+  gmaps:
+    api_key: 'AIzaSyBJB8eoETBDiey-uWbu6PXltXUpHLGAp7U'
+  flickr:
+    api_key: '117966c5c10d5f2705e9a8b4daebcfa3'
+  analytics:
+    enabled: true
+    account_id: 'UA-32236589-1'
+  cname: 'iwitness.adaptivepath.com' # GH Pages only
