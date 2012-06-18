@@ -293,13 +293,19 @@ html,body { background: #000 url(images/gradient_background.png) repeat-y 50% 0;
     top  : 87px;
   }
 
+  .hide-scrollbar {
+    overflow: hidden;
+    width:    60px;
+  }
+
   .column {
-    overflow    : hidden;
+    overflow-y  : auto;
     position    : absolute;
     top         : 10px;
     bottom      : 0;
-    width       : 60px;
+    width       : 80px;
     padding-top : 10px;
+    border-left : 1px solid black;
   }
 
   .column.hour, .column.minute {
@@ -308,7 +314,10 @@ html,body { background: #000 url(images/gradient_background.png) repeat-y 50% 0;
 
   .column-1 { left: 10px;  }
   .column-2 { left: 71px;  }
-  .column-3 { left: 130px; top: 76px; }
+  .column-3 {
+    left: 130px;
+    background: none repeat scroll 0 0 padding-box #1A1B1D;
+  }
 
   .column .heading {
     position       : absolute;
@@ -316,6 +325,7 @@ html,body { background: #000 url(images/gradient_background.png) repeat-y 50% 0;
     right          : 0;
     left           : 0;
     height         : 16px;
+    width          : 60px;
     color          : #fff;
     font           : 10px helvetica, arial, sans-serif;
     font-weight    : bold;
@@ -334,6 +344,10 @@ html,body { background: #000 url(images/gradient_background.png) repeat-y 50% 0;
     left        : 0;
     padding-top : 10px;
     -webkit-overflow-scrolling: touch;
+  }
+
+  .column-3 .content {
+    top: 76px;
   }
 
   a {
