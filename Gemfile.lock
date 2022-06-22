@@ -30,7 +30,7 @@ GEM
       coderay (~> 1.0.5)
       method_source (~> 0.7.1)
       slop (>= 2.4.4, < 3)
-    rack (1.4.1)
+    rack (1.6.13)
     slop (2.4.4)
     sprockets (2.4.0)
       hike (~> 1.2)
